@@ -1,0 +1,170 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: bebas_neuelight;
+}
+
+strong {
+	font-family: bebas_neueregular;
+	font-weight: 400;
+}
+
+.playerStats {
+	position: absolute;
+	left: 350px; /* Default: 350px */
+	bottom: 10px; /* Default: 10px */
+
+	left: 84.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+	top: 5%; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.stat {
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	position: relative;
+	width: 220px;
+	height: 32px;
+	margin-bottom: 5px;
+	background-color: rgba(0, 0, 0, 0.589);
+	border-radius:5px;
+}
+
+.stat:after{
+  content:"";
+  display: block;
+  height: 1.01px;
+  width: 105.8%;
+  position: absolute;
+  bottom: 0;
+  left: -14px;
+}
+
+.stat .icon {
+	height: 35px;
+	width: 47px;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%,rgba(0, 0, 0, 0) 10%);
+	border-radius: 100%;
+	position: relative;
+	display: inline-block;
+	right: 3px;
+}
+
+
+.stat .icon i, .stat .icon img{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	float: left;
+	margin-left: -40px;
+	border-radius:5px;
+}
+
+.stat .icon img {
+	height: 34px;
+	width: 35px;
+}
+
+.stat span {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 10px;
+}
+
+.triangle span {
+	position: absolute;
+	transform: translateY(-90%);
+	margin-left: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.status {
+	display: flex;
+	width: 195px;
+	position: relative;
+	left: -15px;
+	justify-content: space-between;
+}
+
+.vert-stat {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.vert-stat .bg {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.vert-stat img {
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.triangle{
+	width: 200px;
+	left: 20px;
+	position: relative;
+	top: 2px;
+	border-top: 21px solid rgba(14, 14, 14, 0.440);
+	border-left: 10px solid transparent;
+	border-radius:5px;
+	background-color:#ff7f27;
+}
+
+.info{
+	position: absolute;
+	left: 3.2px;
+	top: -17.5px;
+}
+
+.stat:nth-child(4){
+	margin-bottom: 0px !important;
+	}
+
+#job span {
+	left: 8.5%;
+	}
+#faction span {
+	font-size: 14.2px !important;
+	margin-top: -3.3px !important;
+	white-space: nowrap;
+	letter-spacing: 0.7px;
+	left: 7.2%;
+	}
+#money span {
+	left: 8.5%;
+	}
+#dirtymoney span {
+	left: 8.5%;
+	}
+#bankmoney span {
+	left: 8.5%;
+	}
+
+@font-face {
+	font-family: 'bebas_neuelight';
+	src: url('../fonts/bebasneue-light-webfont.woff2') format('woff2'),
+		url('../fonts/bebasneue-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'bebas_neueregular';
+	src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+		url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
