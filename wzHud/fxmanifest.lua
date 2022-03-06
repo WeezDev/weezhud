@@ -16,7 +16,6 @@ ui_page 'html/ui.html'
 files {
 	'html/ui.html',
 	'html/css/style.css',
-	'html/css/grid.css',
 	'html/js/main.js',
 	'html/img/*',
 	'html/fonts/*'
