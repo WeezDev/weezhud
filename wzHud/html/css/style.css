@@ -11,11 +11,11 @@ strong {
 
 .playerStats {
 	position: absolute;
-	left: 350px; /* Default: 350px */
-	bottom: 10px; /* Default: 10px */
+	left: 350px;
+	bottom: 10px; 
 
-	left: 84.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
-	top: 5%; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+	left: 84.0%; 
+	top: 5%; 
 }
 
 .stat {
@@ -69,15 +69,14 @@ strong {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	margin-left: 10px;
+	margin-left: 0px;
 }
 
 .triangle span {
 	position: absolute;
 	transform: translateY(-90%);
 	top: -3px;
-	right: 100px;
-	margin-left: 5px;
+	margin-left: 25px;
 	color: rgb(255, 255, 255);
 }
 
@@ -116,7 +115,7 @@ strong {
 
 .triangle{
 	width: 200px;
-	left: 20px;
+	left: 10px;
 	position: relative;
 	top: 2px;
 	border-top: 21px solid rgba(14, 14, 14, 0.440);
