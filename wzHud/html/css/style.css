@@ -75,8 +75,7 @@ strong {
 .triangle span {
 	position: absolute;
 	transform: translateY(-90%);
-	top: -3px;
-	margin-left: 25px;
+	margin-left: 15px;
 	color: rgb(255, 255, 255);
 }
 
@@ -137,7 +136,7 @@ strong {
 #job span {
 	left: 8.5%;
 	}
-#faction span {
+#job2 span {
 	font-size: 14.2px !important;
 	margin-top: -3.3px !important;
 	white-space: nowrap;
