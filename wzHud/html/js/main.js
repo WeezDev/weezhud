@@ -22,15 +22,6 @@ function setValue(key, value) {
 	$('#' + key + ' span').html(value);
 }
 
-function updateStatus(status) {
-	var hunger = status[0];
-	var thirst = status[1];
-	var drunk = status[2];
-	$('#hunger .bg').css('height', hunger.percent + '%');
-	$('#water .bg').css('height', thirst.percent + '%');
-	$('#drunk .bg').css('height', drunk.percent + '%');
-}
-
 function setProximity(value) {
 	var speaker = 2;
 	if (value == "whisper") {
