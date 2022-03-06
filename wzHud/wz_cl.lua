@@ -95,8 +95,8 @@ AddEventHandler('esx:setJob', function(job)
 	SendNUIMessage({action = "setValue", key = "job", value = ('%s - <strong>%s</strong>'):format(job.label, job.grade_label) })
 end)
 
-RegisterNetEvent('esx:setjob2')
-AddEventHandler('esx:setjob2', function(job2)
+RegisterNetEvent('esx:setJob2')
+AddEventHandler('esx:setJob2', function(job2)
 	SendNUIMessage({action = "setValue", key = "job2", value = ('%s - <strong>%s</strong>'):format(job2.label, job2.grade_label) })
 end)
 
